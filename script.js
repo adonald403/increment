@@ -78,6 +78,7 @@ buttonBottom.id = "helium-extractor-cost-display";
 buttonBottom.textContent = "(1000)";
 heliumButton.appendChild(buttonTop);
 heliumButton.appendChild(buttonBottom);
+let heliumButton = document.getElementById("helium-button");
 
 heliumButton.onclick = () => {
     if (heliumExtractor < heliumCost) {
@@ -104,6 +105,7 @@ buttonBottom.id = "lithium-extractor-cost-display";
 buttonBottom.textContent = "(100000)";
 lithiumButton.appendChild(buttonTop);
 lithiumButton.appendChild(buttonBottom);
+let lithiumButton = document.getElementById("lithium-button");
 
 lithiumButton.onclick = () => {
     if (lithiumExtractor < lithiumCost) {
