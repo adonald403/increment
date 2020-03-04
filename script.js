@@ -165,7 +165,7 @@ tickspeedButton.onclick = () => {
 
     hydrogen -= tickspeedCost;
     hydrogenCount.textContent = numberFormat(hydrogen) + " Hydrogen";
-    tickspeedCost *= 10;
+    tickspeedCost *= 1.01;
 
     if (tickspeed == 0.01 && !heliumActivated) {
         insertAfter(heliumButton, hydrogenButton);
