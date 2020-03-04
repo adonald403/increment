@@ -67,7 +67,7 @@ var myFunction = function() {
 setTimeout(myFunction, counter);
 
 let heliumButton = document.createElement("div");
-heliumButton.id = "helium-button";
+heliumButton.id = "heliumButton";
 heliumButton.className = "text display button centered";
 heliumButton.dataset.size = "small";
 buttonTop = document.createElement("div");
@@ -78,7 +78,6 @@ buttonBottom.id = "helium-extractor-cost-display";
 buttonBottom.textContent = "(1000)";
 heliumButton.appendChild(buttonTop);
 heliumButton.appendChild(buttonBottom);
-let heliumButton = document.getElementById("helium-button");
 
 heliumButton.onclick = () => {
     if (heliumExtractor < heliumCost) {
